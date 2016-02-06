@@ -29,7 +29,6 @@ Example plot generated with the script:
 
 ![Download Speed over time](http://normcyr.github.io/download-speed.svg)
 
-## References
 
 [speedtest-cli]: https://github.com/sivel/speedtest-cli
 [speedtest.net]: http://www.speedtest.net/
