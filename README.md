@@ -14,9 +14,18 @@ To generate column names, do
 $ speedtest-csv --header
 start;stop;from;from_ip;server;server_dist;server_ping;download;upload;share_url
 ```
-
 _Footnotes:_  
 (*) Commas are not safe to use to separate the values, because some test servers report speeds with commas instead of periods.  Because of this, semicolons are used instead.
+
+## speedtest-plots.R
+
+It is always nice to be able to visualize collected data. Download and upload speeds are no exception. The `speedtest-plots.R` is a R script that will generate plots and histograms of the collected data over time.
+
+It assumes that the `speedtest.log` file has the standard headers as the first line of the log file (you used the `--header` option). You actually need them as the first line of the log file in order for the script to work.
+
+You will also need to modify the script slightly in order to point to the path of your log file (see line 6). 
+
+## References
 
 [speedtest-cli]: https://github.com/sivel/speedtest-cli
 [speedtest.net]: http://www.speedtest.net/
