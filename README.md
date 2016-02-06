@@ -25,6 +25,10 @@ It assumes that the `speedtest.log` file has the standard headers as the first l
 
 You will also need to modify the script slightly in order to point to the path of your log file (see line 6). 
 
+Example plot generated with the script:
+
+![Download Speed over time](https://github.com/normcyr/normcyr.github.io/blob/master/download-speed.svg)
+
 ## References
 
 [speedtest-cli]: https://github.com/sivel/speedtest-cli
