@@ -1,5 +1,7 @@
 # speedtest-cli-extras
 
+[![Join the chat at https://gitter.im/normcyr/speedtest-cli-extras](https://badges.gitter.im/normcyr/speedtest-cli-extras.svg)](https://gitter.im/normcyr/speedtest-cli-extras?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains tools that enhance the [speedtest-cli] command-line interface to [speedtest.net].
 
 ## speedtest-csv
