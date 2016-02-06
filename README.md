@@ -27,7 +27,7 @@ You will also need to modify the script slightly in order to point to the path o
 
 Example plot generated with the script:
 
-![Download Speed over time](https://github.com/normcyr/normcyr.github.io/blob/master/download-speed.svg)
+![Download Speed over time](http://normcyr.github.io/download-speed.svg)
 
 ## References
 
